@@ -18,4 +18,5 @@ Judging the outcome of our first model, it is clear that additional data cleanin
 
 ### Second Linear Regression Model
 
-![2nd_model](https://user-images.githubusercontent.com/77767984/132430750-b7987130-dc4a-483e-83d4-2a82af7e1518.PNG)
+![2nd_model](https://user-images.githubusercontent.com/77767984/132431107-75fd1b6c-4c3f-4fb4-ac45-bbf49ec055b0.PNG)
+
