@@ -8,10 +8,14 @@ We will be utilizing supervised machine learning to predict how successful and e
 
 We will be utilizing slack, as well as Zoom to communicate and collaborate with each other. We will also be sharing notes via Google Docs.
 
-## First Linear Regression Model
+### First Linear Regression Model
 
 ![first_model](https://user-images.githubusercontent.com/77767984/132428693-593f56f9-73e3-4ce3-af1c-6a3e2a0763d0.PNG)
 
 Our first linear regression model was created with an input of Weight on Bit multiplied by Gamma. The relationship between these two is that high Gamma means low rock strength, which is expected to drill faster (higher rate of penetration), and a higher weight on bit means more pressure being applied to the rock, which is also expected to produce higher rate of penetration.
 
 Judging the outcome of our first model, it is clear that additional data cleaning will be required.
+
+### Second Linear Regression Model
+
+![2nd_model](https://user-images.githubusercontent.com/77767984/132430750-b7987130-dc4a-483e-83d4-2a82af7e1518.PNG)
