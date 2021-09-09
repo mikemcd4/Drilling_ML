@@ -8,13 +8,15 @@ We will be utilizing supervised machine learning to predict how successful and e
 
 ### Reason the Topic was Selected
 
+We selected this topic to evaluate how drilling performance can be improved.
 
 ### Description of Data Source
 
+The dataset we used is actual data from sensors on drilling rigs in West Texas.
 
 ### Questions we Hope to Answer with the Data
 
-
+We are trying to answer, or predict if drill bits are damaged or not working correctly if the output falls outside of the predicted y-value.
 
 ### Communication Protocols
 
@@ -22,13 +24,7 @@ We will be utilizing slack, as well as Zoom to communicate and collaborate with 
 
 ### First Linear Regression Model
 
-![first_model](https://user-images.githubusercontent.com/77767984/132428693-593f56f9-73e3-4ce3-af1c-6a3e2a0763d0.PNG)
+![Capture](https://user-images.githubusercontent.com/77767984/132602322-cff08710-bd66-498e-8656-b785fc20bfa8.PNG)
+
 
 Our first linear regression model was created with an input of Weight on Bit multiplied by Gamma. The relationship between these two is that high Gamma means low rock strength, which is expected to drill faster (higher rate of penetration), and a higher weight on bit means more pressure being applied to the rock, which is also expected to produce higher rate of penetration.
-
-Judging the outcome of our first model, it is clear that additional data cleaning will be required.
-
-### Second Linear Regression Model
-
-![2nd_model](https://user-images.githubusercontent.com/77767984/132431107-75fd1b6c-4c3f-4fb4-ac45-bbf49ec055b0.PNG)
-
