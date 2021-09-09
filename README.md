@@ -8,13 +8,15 @@ We will be utilizing supervised machine learning to predict how successful and e
 
 ### Reason the Topic was Selected
 
+We selected this topic to evaluate how drilling performance can be improved.
 
 ### Description of Data Source
 
+The dataset we used is actual data from sensors on drilling rigs in West Texas.
 
 ### Questions we Hope to Answer with the Data
 
-
+We are trying to answer, or predict if drill bits are damaged or not working correctly if the output falls outside of the predicted y-value.
 
 ### Communication Protocols
 
