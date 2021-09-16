@@ -1,0 +1,26 @@
+CREATE TABLE wells (
+    Well_Name VARCHAR(15) NOT NULL,
+    Bit_RPM INT Not Null,
+	Depth_of_Cut Int,
+	Gamma Int,
+	Mechanical_Specific_Energy Int,
+	On_Bottom_ROP Int,
+	Rotary_RPM Int,
+	Total_Pump_Output Int,
+	Weight_on_Bit Int,
+	
+PRIMARY KEY (Well_Name));
+
+------------Joins queries--------------------------
+
+SELECT * 
+INTO wells_joined
+FROM wells_filtered
+
+UNION
+
+SELECT * FROM wells_y_pred
+
+-----------------------
+
+SELECT * FROM wells_joined
