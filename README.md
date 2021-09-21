@@ -2,6 +2,8 @@
 
 ## Overview
 
+[Presentation Deck](https://docs.google.com/presentation/d/1TrmBVhpxC0uwEIJbYaWV1LSWlHm9EZwBkupt1_mkAKs/edit?usp=sharing)
+
 ### Selected Topic
 
 We will be utilizing supervised machine learning to predict how successful and efficient a drilling well will be, with efficiency/success determined by rate of penetration, or how far the well drills in feet per hour.

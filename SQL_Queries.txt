@@ -10,3 +10,17 @@ CREATE TABLE wells (
 	Weight_on_Bit Int,
 	
 PRIMARY KEY (Well_Name));
+
+------------Joins queries--------------------------
+
+SELECT * 
+INTO wells_joined
+FROM wells_filtered
+
+UNION
+
+SELECT * FROM wells_y_pred
+
+-----------------------
+
+SELECT * FROM wells_joined
