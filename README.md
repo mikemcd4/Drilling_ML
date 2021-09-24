@@ -42,6 +42,12 @@ For the other model, we imported the cleaned dataset and split it into 80% train
 ![Capture](https://user-images.githubusercontent.com/77767984/132602322-cff08710-bd66-498e-8656-b785fc20bfa8.PNG)
 
 
-Our first linear regression model was created with an input of Weight on Bit multiplied by Gamma. The relationship between these two is that high Gamma means low rock strength, which is expected to drill faster (higher rate of penetration), and a higher weight on bit means more pressure being applied to the rock, which is also expected to produce higher rate of penetration.
+Our first linear regression model was created with an input of Weight on Bit multiplied by Gamma. The relationship between these two is that high Gamma means low rock strength, which is expected to drill faster (higher rate of penetration), and a higher weight on bit means more pressure being applied to the rock, which is also expected to produce higher rate of penetration. The training and testing data was split up into 6 sets for each oil well in the original datatest, and 5 of those were concatenated to form the training set while the 6th set was the testing set.
+
+#### Accuracy Scores
+
+Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated. Mean squared error calculates the average squared difference between the estimated values and the actual value.
+
+### Second Linear Regression Model
 
 
