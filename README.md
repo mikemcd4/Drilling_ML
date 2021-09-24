@@ -54,3 +54,17 @@ Accuracy can't be measured from a linear regression model, however mean absolute
 ![test_model](https://user-images.githubusercontent.com/77767984/134607084-29190854-6099-4bc0-8733-31f83b13edb7.PNG)
 
 The second linear regression model used the same variables, however the original dataset was split into training and testing sets more traditionally, by using sklearn to split the data 80 % training, and 20% testing.
+
+#### Mean Absolute Error
+
+![mean_absolute_error_2](https://user-images.githubusercontent.com/77767984/134610136-3d1815f6-9502-4ab2-8f12-e234576c8a88.PNG)
+
+(insert description)
+
+#### Mean Absolute Percentage Error
+![mean_absolute_percentage_error_2](https://user-images.githubusercontent.com/77767984/134610170-1f124959-121b-4539-beff-c7873ef57469.PNG)
+
+(insert description)
+
+
+
