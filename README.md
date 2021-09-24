@@ -50,7 +50,7 @@ Accuracy can't be measured from a linear regression model, however mean absolute
 
 #### Mean Absolute Error
 
-[MAE_model1](https://user-images.githubusercontent.com/77767984/134611003-e4f5487c-bc29-4744-8d89-e67dfdf217c6.PNG)
+![MAE_model1](https://user-images.githubusercontent.com/77767984/134611003-e4f5487c-bc29-4744-8d89-e67dfdf217c6.PNG)
 
 #### Mean Absolute Percentage Error
 
