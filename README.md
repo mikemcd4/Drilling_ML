@@ -25,9 +25,6 @@ The data in this set we are concerned with is the weight on bit (weight applied 
 
 Determine if drill bits, the piece of the well that drills into the ground, are damaged or not working properly if the output of the well falls outside of the predicted y-value of our model, which is the well’s rate of penetration, or how many feet the well drills per hour.
 
-### Communication Protocols
-
-We will be utilizing slack, as well as Zoom to communicate and collaborate with each other. We will also be sharing notes via Google Docs.
 
 ### Initial Assessment of Data
 
@@ -36,6 +33,9 @@ Null values and outliers were removed from the original datatest.
 For one of our models, we took our 6 original datasets, concatenated 5 of them and cleaned them, and used them for our training set. For the remaining dataset, it was cleaned and used as the testing set. 
 For the other model, we imported the cleaned dataset and split it into 80% training data, and 20% testing data using scikitlearn.
 
+### Tools Used
+
+(insert here)
 
 ### First Linear Regression Model
 
@@ -43,3 +43,5 @@ For the other model, we imported the cleaned dataset and split it into 80% train
 
 
 Our first linear regression model was created with an input of Weight on Bit multiplied by Gamma. The relationship between these two is that high Gamma means low rock strength, which is expected to drill faster (higher rate of penetration), and a higher weight on bit means more pressure being applied to the rock, which is also expected to produce higher rate of penetration.
+
+
