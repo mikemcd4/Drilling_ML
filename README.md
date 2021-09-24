@@ -46,7 +46,16 @@ Our first linear regression model was created with an input of Weight on Bit mul
 
 #### Accuracy Scores
 
-Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated. The mean absolute error measured out to 
+Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated.
+
+#### Mean Absolute Error
+
+[MAE_model1](https://user-images.githubusercontent.com/77767984/134611003-e4f5487c-bc29-4744-8d89-e67dfdf217c6.PNG)
+
+#### Mean Absolute Percentage Error
+
+![MAPE_model1](https://user-images.githubusercontent.com/77767984/134611027-e9898dca-6dea-4cb2-bcdb-f4f74fd507e7.PNG)
+
 
 ### Second Linear Regression Model
 
