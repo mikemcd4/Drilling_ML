@@ -46,8 +46,11 @@ Our first linear regression model was created with an input of Weight on Bit mul
 
 #### Accuracy Scores
 
-Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated. Mean squared error calculates the average squared difference between the estimated values and the actual value.
+Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated. The mean absolute error measured out to 
 
 ### Second Linear Regression Model
 
 
+![test_model](https://user-images.githubusercontent.com/77767984/134607084-29190854-6099-4bc0-8733-31f83b13edb7.PNG)
+
+The second linear regression model used the same variables, however the original dataset was split into training and testing sets more traditionally, by using sklearn to split the data 80 % training, and 20% testing.
