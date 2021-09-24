@@ -6,7 +6,9 @@
 
 ### Selected Topic
 
-We will be utilizing supervised machine learning to predict how successful and efficient a drilling well will be, with efficiency/success determined by rate of penetration, or how far the well drills in feet per hour.
+Oil exploration and drilling is a big deal in Texas and other regions around the world. It is a source of income for a number of large, multinational companies employing thousands of people. As the world transitions to greener energy sources, the need to maximize profits and efficiency in fossil fuel production will only continue to increase.
+Oil companies are constantly looking for new and innovative ways to drill more safely and efficiently. The goal of any company is to extract as much oil as quickly as they can, while maintaining both a safe work environment, as well as equipment integrity.
+
 
 ### Reason the Topic was Selected
 
@@ -14,15 +16,26 @@ We selected this topic to evaluate how drilling performance can be improved.
 
 ### Description of Data Source
 
-The dataset we used is actual data from sensors on drilling rigs in West Texas.
+The dataset we used is actual data from sensors on drilling rigs in West Texas. It includes five separate wells, the bit RPM, bit torque, depth of cut, gamma, mechanical specific energy, rate of penetration, and weight on bit.
+
+The data in this set we are concerned with is the weight on bit (weight applied to the well’s drill bit), the gamma (the strength of the rock being drilled into, higher gamma equals lower rock strength). These two multiplied will be our X-variable. Our y-variable, that we are trying to predict, is the rate of penetration (how many feet the well drills per hour). 
+
 
 ### Questions we Hope to Answer with the Data
 
-We are trying to answer, or predict if drill bits are damaged or not working correctly if the output falls outside of the predicted y-value.
+Determine if drill bits, the piece of the well that drills into the ground, are damaged or not working properly if the output of the well falls outside of the predicted y-value of our model, which is the well’s rate of penetration, or how many feet the well drills per hour.
 
 ### Communication Protocols
 
 We will be utilizing slack, as well as Zoom to communicate and collaborate with each other. We will also be sharing notes via Google Docs.
+
+### Initial Assessment of Data
+
+After cleaning out null values and outliers from the initial dataset, we are left with 24,331 data points across five wells. The outliers were determined by what was considered normal parameters for the drill bit to be in good condition.
+Null values and outliers were removed from the original datatest. 
+For one of our models, we took our 6 original datasets, concatenated 5 of them and cleaned them, and used them for our training set. For the remaining dataset, it was cleaned and used as the testing set. 
+For the other model, we imported the cleaned dataset and split it into 80% training data, and 20% testing data using scikitlearn.
+
 
 ### First Linear Regression Model
 
