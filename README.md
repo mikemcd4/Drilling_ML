@@ -3,6 +3,7 @@
 ## Overview
 
 [Presentation Deck](https://docs.google.com/presentation/d/1TrmBVhpxC0uwEIJbYaWV1LSWlHm9EZwBkupt1_mkAKs/edit?usp=sharing)
+[Dashboard Link](https://public.tableau.com/app/profile/cory.mccoy/viz/DrillingDashboard/DrillingStory?publish=yes)
 
 ### Selected Topic
 
@@ -35,7 +36,30 @@ For the other model, we imported the cleaned dataset and split it into 80% train
 
 ### Tools Used
 
-(insert here)
+#### Database
+
+We used AWS SQL database to connect and store our data. Within the files, the file name "Connect data to database" is the code we used to connect our csv data to the SQL database. We picked AWS because it is a cloud base SQL database that allowed each team member to access the data through PgAdmin. PgAdmin is a free database program that each member has to download on their local machine. There are a couple steps that need to be taken to link the AWS server to PgAdmin. Below are the steps below. 
+
+1. Download and open PgAdmin 
+2. Right click on server and click create new 
+3. Fill out the infomation in the screenshot below
+
+![Database Config]()
+
+#### Tablau 
+
+We used Tablau Desktop to display our findings as a dashboard. The main reason we used Tablau is because we wanted to system that can be accessed by the public. This will help with future interation. For example, if we want to model to be interactive with real time drilling parameters, we will need a dashboard that can be accessed in the field with limited technology so the employees on location can monitor their progress. Many dashboards require a computer and local host which isn't always possible in remote locations. 
+
+1. Walking through the story of the dashboard, we have 3 main decks. The first desk is a quick visualzation on how certain inputs influance ROP. The inputs we studied were Weight on Bit (WOB) and Gamma. We ran out of time to study RPM (how fast the bit is turning) within our machine learning module. As you can see, there is a strong linear cooralation between ROP and WOB and a linear coorelation between ROP and Gamma.
+
+![Sheet1]()
+
+2. The 2nd sheet breaks down and identifies a range of input parameters where the highest ROP is observed. This is important in our study to know and understand where high ROP can be achieved as well as a QA/QC tool to make sure they data going into the model is correct. 
+
+![sheet2]()
+3. The 3rd sheets shows a predicted linear line of WOB and ROP. Additionally, we a set against a test well and our predicted ROP matches up very well with the actual ROP on a test well. This gives us confidence in our model.
+
+![sheet3]()
 
 ### First Linear Regression Model
 
@@ -74,6 +98,8 @@ The second linear regression model used the same variables, however the original
 ![mean_absolute_percentage_error_2](https://user-images.githubusercontent.com/77767984/134610170-1f124959-121b-4539-beff-c7873ef57469.PNG)
 
 (insert description)
+
+
 
 
 
