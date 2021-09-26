@@ -2,8 +2,9 @@
 
 ## Overview
 
-[Presentation Deck](https://docs.google.com/presentation/d/1TrmBVhpxC0uwEIJbYaWV1LSWlHm9EZwBkupt1_mkAKs/edit?usp=sharing)
-[Dashboard Link](https://public.tableau.com/app/profile/cory.mccoy/viz/DrillingDashboard/DrillingStory?publish=yes)
+1. [Presentation Deck](https://docs.google.com/presentation/d/1TrmBVhpxC0uwEIJbYaWV1LSWlHm9EZwBkupt1_mkAKs/edit?usp=sharing)
+
+2. [Dashboard Link](https://public.tableau.com/app/profile/cory.mccoy/viz/DrillingDashboard/DrillingStory?publish=yes)
 
 ### Selected Topic
 
