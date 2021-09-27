@@ -1,0 +1,7 @@
+SELECT * 
+INTO wells_joined
+FROM wells_filtered
+
+UNION
+
+SELECT * FROM wells_y_pred
