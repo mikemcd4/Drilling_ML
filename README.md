@@ -51,7 +51,7 @@ We used AWS SQL database to connect and store our data. Within the files, the fi
 
 We used Tablau Desktop to display our findings as a dashboard. The main reason we used Tablau is because we wanted to system that can be accessed by the public. This will help with future interation. For example, if we want to model to be interactive with real time drilling parameters, we will need a dashboard that can be accessed in the field with limited technology so the employees on location can monitor their progress. Many dashboards require a computer and local host which isn't always possible in remote locations. 
 
-1. Walking through the story of the dashboard, we have 3 main decks. The first desk is a quick visualzation on how certain inputs influance ROP. The inputs we studied were Weight on Bit (WOB) and Gamma. We ran out of time to study RPM (how fast the bit is turning) within our machine learning module. As you can see, there is a strong linear cooralation between ROP and WOB and a linear coorelation between ROP and Gamma.
+1. Walking through the story of the dashboard, we have 3 main decks. The first desk is a quick visualzation on how certain inputs influance ROP. The inputs we studied were Weight on Bit (WOB) and Gamma. We ran out of time to study RPM (how fast the bit is turning) within our machine learning module. As you can see, there is a strong linear correlation between ROP and WOB and a linear correlation between ROP and Gamma.
 
 ![Sheet1](https://github.com/mikemcd4/Drilling_ML/blob/main/dashboard%20sheet1.PNG)
 
