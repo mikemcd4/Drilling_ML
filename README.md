@@ -72,7 +72,7 @@ Our first linear regression model was created with an input of Weight on Bit mul
 
 #### Accuracy Scores
 
-Accuracy can't be measured from a linear regression model, however mean absolute error and mean absolute percentage error were calculated.
+Accuracy was measured by mean absolute error,  mean absolute percentage error, and r-squared values.
 
 #### Mean Absolute Error
 
