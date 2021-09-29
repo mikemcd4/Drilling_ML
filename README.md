@@ -112,6 +112,14 @@ The second linear regression model used the same variables, however the original
 
 Overall, our two linear regression models show modestly confident correlations between our actual and predicted values. Further improvement and optimization would have to be performed on the models to produce a production worthy product. A neural network was attempted to see if it would perform better than the linear regression models, however we were unable to get it to produce significant accuracy results. One thing to change if this project was tackled differently, would be to focus more on optimizing the neural network model, as it seems it has advantages over linear regression models for our sort of question to solve.
 
+## Goals for the Future of the Project
+
+Goals for the future of the project
+Add in RPM as a variable to run model on wells that drill vertically into the ground instead of just horizontal like for this project
+Plug in real time data into database (via webscraping or Witz) to have a real time model instead of one based off of data from the past
+Focus more on optimizing a neural network model rather than continue attempting to optimize a linear regression model
+
+
 
 
 
