@@ -45,7 +45,7 @@ We used AWS SQL database to connect and store our data. Within the files, the fi
 2. Right click on server and click create new 
 3. Fill out the infomation in the screenshot below
 
-![Database Config](https://github.com/mikemcd4/Drilling_ML/blob/main/Database%20Config.PNG)
+![Database Config](https://github.com/mikemcd4/Drilling_ML/blob/main/Images/Database%20Config.PNG)
 
 #### Tablau 
 
@@ -53,15 +53,15 @@ We used Tablau Desktop to display our findings as a dashboard. The main reason w
 
 1. Walking through the story of the dashboard, we have 3 main decks. The first desk is a quick visualzation on how certain inputs influance ROP. The inputs we studied were Weight on Bit (WOB) and Gamma. We ran out of time to study RPM (how fast the bit is turning) within our machine learning module. As you can see, there is a strong linear correlation between ROP and WOB and a linear correlation between ROP and Gamma.
 
-![Sheet1](https://github.com/mikemcd4/Drilling_ML/blob/main/dashboard%20sheet1.PNG)
+![Sheet1](https://github.com/mikemcd4/Drilling_ML/blob/main/Images/dashboard%20sheet1.PNG)
 
 2. The 2nd sheet breaks down and identifies a range of input parameters where the highest ROP is observed. This is important in our study to know and understand where high ROP can be achieved as well as a QA/QC tool to make sure they data going into the model is correct. 
 
-![sheet2](https://github.com/mikemcd4/Drilling_ML/blob/main/Upper%20and%20lower%20bounds.PNG)
+![sheet2](https://github.com/mikemcd4/Drilling_ML/blob/main/Images/Upper%20and%20lower%20bounds.PNG)
 
 3. The 3rd sheets shows a predicted linear line of WOB and ROP. Additionally, we a set against a test well and our predicted ROP matches up very well with the actual ROP on a test well. This gives us confidence in our model.
 
-![sheet3](https://github.com/mikemcd4/Drilling_ML/blob/main/dashboard%20regression.PNG)
+![sheet3](https://github.com/mikemcd4/Drilling_ML/blob/main/Images/dashboard%20regression.PNG)
 
 ### First Linear Regression Model
 
