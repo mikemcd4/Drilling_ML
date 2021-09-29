@@ -108,6 +108,10 @@ The second linear regression model used the same variables, however the original
 
 ![r2_2ndmodel](https://user-images.githubusercontent.com/77767984/135186469-fe025e72-73e4-4aa3-a53e-c7d2fd011a66.PNG)
 
+## Conclusion
+
+Overall, our two linear regression models show modestly confident correlations between our actual and predicted values. Further improvement and optimization would have to be performed on the models to produce a production worthy product. A neural network was attempted to see if it would perform better than the linear regression models, however we were unable to get it to produce significant accuracy results. One thing to change if this project was tackled differently, would be to focus more on optimizing the neural network model, as it seems it has advantages over linear regression models for our sort of question to solve.
+
 
 
 
