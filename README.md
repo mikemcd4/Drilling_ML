@@ -82,11 +82,16 @@ Accuracy can't be measured from a linear regression model, however mean absolute
 
 ![MAPE_model1](https://user-images.githubusercontent.com/77767984/134611027-e9898dca-6dea-4cb2-bcdb-f4f74fd507e7.PNG)
 
+#### R-Squared Value
+
+![rsquared_1stmodel](https://user-images.githubusercontent.com/77767984/135186207-d14ad346-2fc4-44e9-8522-7540862b213f.PNG)
+
 
 ### Second Linear Regression Model
 
 
 ![test_model](https://user-images.githubusercontent.com/77767984/134607084-29190854-6099-4bc0-8733-31f83b13edb7.PNG)
+
 
 The second linear regression model used the same variables, however the original dataset was split into training and testing sets more traditionally, by using sklearn to split the data 80 % training, and 20% testing.
 
@@ -94,12 +99,17 @@ The second linear regression model used the same variables, however the original
 
 ![mean_absolute_error_2](https://user-images.githubusercontent.com/77767984/134610136-3d1815f6-9502-4ab2-8f12-e234576c8a88.PNG)
 
-(insert description)
+
 
 #### Mean Absolute Percentage Error
 ![mean_absolute_percentage_error_2](https://user-images.githubusercontent.com/77767984/134610170-1f124959-121b-4539-beff-c7873ef57469.PNG)
 
-(insert description)
+#### R-Squared Value
+
+![r2_2ndmodel](https://user-images.githubusercontent.com/77767984/135186469-fe025e72-73e4-4aa3-a53e-c7d2fd011a66.PNG)
+
+
+
 
 
 
